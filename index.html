@@ -1,0 +1,2263 @@
+
+
+
+
+	<meta charset="UTF-8">
+	<link rel="icon" href="bun1.png" type="image/png">
+	
+	<title>$BETH</title>
+	<meta name="robots" content="max-image-preview:large">
+	<style>
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 0.07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel="stylesheet" id="loftloader-style-css" href="loftloader.min3a45.css" media="all">
+	<style id="loftloader-style-inline-css">
+		#loftloader-wrapper .loader-bg {
+			opacity: 1.00;
+		}
+
+		#loftloader-wrapper.end-split-h .loader-bg:before,
+		#loftloader-wrapper.end-split-h .loader-bg:after,
+		#loftloader-wrapper.end-split-v .loader-bg:before,
+		#loftloader-wrapper.end-split-v .loader-bg:after,
+		#loftloader-wrapper.end-fade .loader-bg,
+		#loftloader-wrapper.end-up .loader-bg,
+		#loftloader-wrapper.end-down .loader-bg,
+		#loftloader-wrapper.end-left .loader-bg,
+		#loftloader-wrapper.end-right .loader-bg,
+		#loftloader-wrapper.end-shrink-fade .loader-bg:before,
+		.loader-bg .loader-bg-half:before {
+			background-color: #000000;
+		}
+
+		#loftloader-wrapper .loader-inner #loader,
+		#loftloader-wrapper.loftloader-ducks #loader span {
+			color: #248acc
+		}
+
+		#loftloader-wrapper.loftloader-crystal #loader span {
+			box-shadow: 0 -15px 0 0 rgba(36, 138, 204, 0.5), 15px -15px 0 0 rgba(36, 138, 204, 0.5), 15px 0 0 0 rgba(36, 138, 204, 0.5), 15px 15px 0 0 rgba(36, 138, 204, 0.5), 0 15px 0 0 rgba(36, 138, 204, 0.5), -15px 15px 0 0 rgba(36, 138, 204, 0.5), -15px 0 0 0 rgba(36, 138, 204, 0.5), -15px -15px 0 0 rgba(36, 138, 204, 0.5);
+		}
+
+		#loftloader-wrapper.loftloader-crossing #loader span:before {
+			background: #00ffff
+		}
+
+		#loftloader-wrapper.loftloader-crossing #loader span:after {
+			background: #ff0000
+		}
+
+		#loftloader-wrapper.loftloader-rainbow #loader span:before {
+			box-shadow: 0 0 0 10px #ff0000, 0 0 0 20px #ffd700, 0 0 0 30px #00ffff;
+		}
+
+		#loftloader-wrapper.loftloader-frame #loader {
+			width: 80px;
+		}
+
+		#loftloader-wrapper.loftloader-frame #loader {
+			height: 80px;
+		}
+
+		#loftloader-wrapper.loftloader-frame #loader span:after,
+		#loftloader-wrapper.loftloader-frame #loader span:before {
+			width: 4px;
+		}
+
+		#loftloader-wrapper.loftloader-frame #loader:after,
+		#loftloader-wrapper.loftloader-frame #loader:before {
+			height: 4px;
+		}
+
+		#loftloader-wrapper.loftloader-imgfading #loader img,
+		#loftloader-wrapper.loftloader-imgloading #loader img,
+		#loftloader-wrapper.loftloader-imgrotating #loader img,
+		#loftloader-wrapper.loftloader-imgbouncing #loader img,
+		#loftloader-wrapper.loftloader-imgstatic #loader img {
+			width: 140px;
+		}
+
+		#loftloader-wrapper.loftloader-imgfading .loader-inner #loader,
+		#loftloader-wrapper.loftloader-imgloading .loader-inner #loader,
+		#loftloader-wrapper.loftloader-imgrotating .loader-inner #loader,
+		#loftloader-wrapper.loftloader-imgbouncing .loader-inner #loader,
+		#loftloader-wrapper.loftloader-imgstatic .loader-inner #loader {
+			max-width: 100%;
+		}
+
+		#loftloader-wrapper span.bar {
+			width: 30vw;
+		}
+
+		#loftloader-wrapper span.bar {
+			height: 10px;
+		}
+
+		#loftloader-wrapper span.bar,
+		#loftloader-wrapper span.percentage {
+			color: #248acc;
+		}
+
+		#loftloader-wrapper span.percentage,
+		#loftloader-wrapper span.bar span.load-count {
+			font-family: Lato;
+		}
+
+		#loftloader-wrapper span.percentage,
+		#loftloader-wrapper span.bar span.load-count {
+			font-weight: 100;
+		}
+
+		#loftloader-wrapper span.percentage,
+		#loftloader-wrapper span.bar span.load-count {
+			letter-spacing: 0.1em;
+		}
+
+		body #loftloader-wrapper span.percentage,
+		body #loftloader-wrapper span.bar span.load-count {
+			font-size: 16px;
+		}
+
+		#loftloader-wrapper .loader-message {
+			font-size: 16px;
+		}
+
+		#loftloader-wrapper .loader-message {
+			color: #248acc;
+		}
+
+		#loftloader-wrapper .loader-message {
+			font-family: Lato;
+		}
+
+		#loftloader-wrapper .loader-message {
+			font-weight: 400;
+		}
+
+		#loftloader-wrapper .loader-message {
+			letter-spacing: 0.1em;
+		}
+
+		#loftloader-wrapper .loader-message {
+			line-height: 1.5;
+		}
+	</style>
+	<style>
+		.elementor-9 .elementor-element.elementor-element-2a73f06a:not(.elementor-motion-effects-element-type-background),
+		.elementor-9 .elementor-element.elementor-element-2a73f06a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+			background-color: #0f0f0f !important;
+		}
+
+		.elementor-9 .elementor-element.elementor-element-345302e .elementskit-navbar-nav>li>a {
+			color: #fff !important;
+		}
+
+		.elementor-9 .elementor-element.elementor-element-345302e .elementskit-menu-hamburger .elementskit-menu-hamburger-icon {
+			background-color: #ffffff !important;
+
+		}
+
+		.elementor-9 .elementor-element.elementor-element-345302e .elementskit-menu-hamburger {
+			border-color: #ffffff !important;
+		}
+
+		.elementor-9 .elementor-element.elementor-element-345302e .elementskit-menu-container {
+			background-color: #0f0f0f !important;
+
+		}
+
+		@media (max-width: 767px) {
+			.elementor-9 .elementor-element.elementor-element-345302e .elementskit-menu-container {
+				margin-top: 30px !important;
+			}
+		}
+
+		.elementor-9 .elementor-element.elementor-element-345302e .elementskit-menu-close {
+			border-color: #ffffff !important;
+			color: #ffffff !important;
+		}
+
+		.elementor-9 .elementor-element.elementor-element-3c809f3 {
+			border-color: #ef79a1 !important;
+			background-color: #0f0f0f !important;
+			height: 50px;
+		}
+
+		.elementor-9 .elementor-element.elementor-element-1f082084:not(.elementor-motion-effects-element-type-background),
+		.elementor-9 .elementor-element.elementor-element-1f082084>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+			background-color: #0f0f0f !important;
+		}
+
+		.elementor-9 .elementor-element.elementor-element-682e1d8>.elementor-widget-container {
+			background-color: transparent !important;
+			border-style: none !important;
+			border-width: none !important;
+			border-color: none !important;
+			border-radius: none !important;
+			box-shadow: none !important;
+		}
+
+		.elementor-9 .elementor-element.elementor-element-e9258b9 img {
+			width: 75px !important;
+		}
+
+		@media (max-width: 767px) {
+			.elementor-9 .elementor-element.elementor-element-345302e .elementskit-nav-logo>img {
+				width: 50px !important;
+			}
+		}
+
+		.elementor-9 .elementor-element.elementor-element-e9258b9 {
+			text-align: left !important;
+		}
+
+		body>div.elementor.elementor-9>section.elementor-section.elementor-top-section.elementor-element.elementor-element-2a73f06a.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default>div {
+			max-width: 100% !important;
+		}
+
+		body>div.elementor.elementor-9>section.elementor-section.elementor-top-section.elementor-element.elementor-element-2a73f06a.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default>div {
+			margin: 0;
+		}
+
+		#menu-menuu {
+			justify-content: right;
+		}
+
+		.announcement-bar {
+			background-color: #00C0E4;
+			padding: 0;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 9999;
+		}
+
+		.announcement-text {
+			margin-right: 10px;
+			color: white;
+		}
+
+		.announcement-img {
+			width: 30px;
+			height: 30px;
+			margin-right: 10px;
+		}
+
+		.announcement-bar marquee {
+			display: flex;
+			align-items: center;
+		}
+
+		#navbar {
+			position: -webkit-sticky;
+			position: sticky;
+			top: 36px;
+			z-index: 1000;
+		}
+
+		#audioContainer {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+
+		#audioPlayer {
+			margin-bottom: 10px;
+		}
+
+		#showCaptionsBtn {
+			font-size: 12px;
+			padding: 5px 10px;
+			margin-top: 5px;
+			background-color: #ef79a1;
+		}
+
+		#panImage {
+			width: 225px;
+		}
+
+		@media (max-width: 767px) {
+			#panImage {
+				width: 175px;
+			}
+		}
+
+		html,
+		body {
+			width: 100%;
+			margin: 0;
+			overflow-x: hidden;
+			/* Hide horizontal scrollbar */
+		}
+
+		body {
+			max-width: 100vw;
+		}
+	</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="style.min3781.css" media="all">
+	<link rel="stylesheet" id="classic-theme-styles-css" href="classic-themes.min3781.css" media="all">
+	<style id="global-styles-inline-css">
+		body {
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+			--wp--preset--duotone--dark-grayscale: url("#wp-duotone-dark-grayscale");
+			--wp--preset--duotone--grayscale: url("#wp-duotone-grayscale");
+			--wp--preset--duotone--purple-yellow: url("#wp-duotone-purple-yellow");
+			--wp--preset--duotone--blue-red: url("#wp-duotone-blue-red");
+			--wp--preset--duotone--midnight: url("#wp-duotone-midnight");
+			--wp--preset--duotone--magenta-yellow: url("#wp-duotone-magenta-yellow");
+			--wp--preset--duotone--purple-green: url("#wp-duotone-purple-green");
+			--wp--preset--duotone--blue-orange: url("#wp-duotone-blue-orange");
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+			--wp--preset--spacing--20: 0.44rem;
+			--wp--preset--spacing--30: 0.67rem;
+			--wp--preset--spacing--40: 1rem;
+			--wp--preset--spacing--50: 1.5rem;
+			--wp--preset--spacing--60: 2.25rem;
+			--wp--preset--spacing--70: 3.38rem;
+			--wp--preset--spacing--80: 5.06rem;
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		:where(.is-layout-flex) {
+			gap: 0.5em;
+		}
+
+		body .is-layout-flow>.alignleft {
+			float: left;
+			margin-inline-start: 0;
+			margin-inline-end: 2em;
+		}
+
+		body .is-layout-flow>.alignright {
+			float: right;
+			margin-inline-start: 2em;
+			margin-inline-end: 0;
+		}
+
+		body .is-layout-flow>.aligncenter {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained>.alignleft {
+			float: left;
+			margin-inline-start: 0;
+			margin-inline-end: 2em;
+		}
+
+		body .is-layout-constrained>.alignright {
+			float: right;
+			margin-inline-start: 2em;
+			margin-inline-end: 0;
+		}
+
+		body .is-layout-constrained>.aligncenter {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+			max-width: var(--wp--style--global--content-size);
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained>.alignwide {
+			max-width: var(--wp--style--global--wide-size);
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		body .is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		body .is-layout-flex>* {
+			margin: 0;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		.wp-block-navigation a:where(:not(.wp-element-button)) {
+			color: inherit;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		.wp-block-pullquote {
+			font-size: 1.5em;
+			line-height: 1.6;
+		}
+	</style>
+	<link rel="stylesheet" id="hello-elementor-css" href="style.min653d.css" media="all">
+	<link rel="stylesheet" id="hello-elementor-theme-style-css" href="theme.min653d.css" media="all">
+	<link rel="stylesheet" id="elementor-frontend-css" href="frontend-lite.minfb6f.css" media="all">
+	<link rel="stylesheet" id="elementor-post-25-css" href="post-25c24b.css" media="all">
+	<link rel="stylesheet" id="elementor-icons-ekiticons-css" href="ekiticonsa489.css" media="all">
+	<link rel="stylesheet" id="eael-general-css" href="general.min9f31.css" media="all">
+	<link rel="stylesheet" id="eael-9-css" href="eael-90fa6.css" media="all">
+	<link rel="stylesheet" id="elementor-icons-css" href="elementor-icons.min3b94.css" media="all">
+	<style id="elementor-icons-inline-css">
+		.elementor-add-new-section .elementor-add-templately-promo-button {
+			background-color: #5d4fff;
+			background-image: url("");
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+		}
+
+		.elementor-add-new-section .elementor-add-templately-promo-button>i {
+			height: 12px;
+		}
+
+		body .elementor-add-new-section .elementor-add-section-area-button {
+			margin-left: 0;
+		}
+
+		.elementor-add-new-section .elementor-add-templately-promo-button {
+			background-color: #5d4fff;
+			background-image: url("");
+			background-repeat: no-repeat;
+			background-position: center center;
+			position: relative;
+		}
+
+		.elementor-add-new-section .elementor-add-templately-promo-button>i {
+			height: 12px;
+		}
+
+		body .elementor-add-new-section .elementor-add-section-area-button {
+			margin-left: 0;
+		}
+	</style>
+	<link rel="stylesheet" id="swiper-css" href="swiper.min94a4.css" media="all">
+	<link rel="stylesheet" id="elementor-pro-css" href="frontend-lite.minac9e.css" media="all">
+	<link rel="stylesheet" id="mdp-selection-sticky-effect-styles-css" href="sticky-effect.min4b1d.css" media="all">
+	<link rel="stylesheet" id="elementor-post-9-css" href="post-94bc9.css" media="all">
+	<link rel="stylesheet" id="ekit-widget-styles-css" href="widget-stylesa489.css" media="all">
+	<link rel="stylesheet" id="ekit-responsive-css" href="responsivea489.css" media="all">
+	<link rel="stylesheet" id="google-fonts-1-css" href="css.css" media="all">
+	<link rel="stylesheet" id="elementor-icons-shared-0-css" href="fontawesome.min52d5.css" media="all">
+	<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="solid.min52d5.css" media="all">
+	<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="brands.min52d5.css" media="all">
+	
+	
+	
+
+
+	<meta name="generator" content="Elementor 3.12.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+	<link rel="icon" href="bun1.png" sizes="32x32">
+
+	<meta name="msapplication-TileImage" content="wp-content/uploads/2023/05/elementor/thumbs/walterlogo-q77bc67k014vpiyskuxgoqdtaxj8ax2l0n2wcmspzc.png">
+	<noscript>
+		<style>
+			#loftloader-wrapper {
+				display: none !important;
+			}
+		</style>
+	</noscript>
+	<style>
+		html.loftloader-pro-hide #loftloader-wrapper,
+		html.loftloader-pro-spt-hide #loftloader-wrapper {
+			display: none !important;
+		}
+	</style>
+	<style id="loftloader-pro-progress-bar-style">#loftloader-wrapper span.bar span.load { transform: scaleX(0); }</style><style id="loftloader-pro-progress-percentage-style">#loftloader-wrapper span.percentage:after, #loftloader-wrapper .load-count:after { content: "0%"; } #loftloader-wrapper .load-count { width: 0%; }</style>
+	<style id="wpforms-css-vars-root">
+		:root {
+			--wpforms-field-border-radius: 3px;
+			--wpforms-field-background-color: #ffffff;
+			--wpforms-field-border-color: rgba(0, 0, 0, 0.25);
+			--wpforms-field-text-color: rgba(0, 0, 0, 0.7);
+			--wpforms-label-color: rgba(0, 0, 0, 0.85);
+			--wpforms-label-sublabel-color: rgba(0, 0, 0, 0.55);
+			--wpforms-label-error-color: #d63637;
+			--wpforms-button-border-radius: 3px;
+			--wpforms-button-background-color: #9ab0fc;
+			--wpforms-button-text-color: #ffffff;
+			--wpforms-field-size-input-height: 43px;
+			--wpforms-field-size-input-spacing: 15px;
+			--wpforms-field-size-font-size: 16px;
+			--wpforms-field-size-line-height: 19px;
+			--wpforms-field-size-padding-h: 14px;
+			--wpforms-field-size-checkbox-size: 16px;
+			--wpforms-field-size-sublabel-spacing: 5px;
+			--wpforms-field-size-icon-size: 1;
+			--wpforms-label-size-font-size: 16px;
+			--wpforms-label-size-line-height: 19px;
+			--wpforms-label-size-sublabel-font-size: 14px;
+			--wpforms-label-size-sublabel-line-height: 17px;
+			--wpforms-button-size-font-size: 17px;
+			--wpforms-button-size-height: 41px;
+			--wpforms-button-size-padding-h: 15px;
+			--wpforms-button-size-margin-top: 10px;
+
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	
+<link id="jupiter-load-styles-tailwind" rel="stylesheet" href="main-2.3.0-Tailwind.css"><link id="jupiter-load-styles-preflight" rel="stylesheet" href="scoped-preflight.css"><style></style><style></style><link id="jupiter-load-styles-jupiter" rel="stylesheet" href="main-2.3.0-Jupiter.css"><style data-emotion="css" data-s="">.css-1lpgtt2 { background-color: rgb(28, 41, 54); --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity)); }</style></head>
+
+<body data-rsssl="1" class="home page-template page-template-elementor_canvas page page-id-9 loftloader-pro-enabled elementor-default elementor-template-canvas elementor-kit-25 elementor-page elementor-page-9 e--ua-firefox loaded loftloader-loaded" data-elementor-device-mode="desktop" style="cursor: default;">
+	<div id="loftloader-wrapper" class="end-up loftloader-imgrotating twod ease-back" style="max-width: 100vw;">
+		<div class="loader-bg"></div>
+		<div class="loader-inner">
+			<div id="loader"><img width="140" height="134" data-no-lazy="1" class="skip-lazy" alt="loader image" src="loader.png" style="width: 300px;"></div>
+		</div>
+		<div class="loader-close-button" style="display: none;"><span class="screen-reader-text">Close</span></div>
+	</div>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-dark-grayscale">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix>
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR>
+					<feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG>
+					<feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB>
+					<feFuncA type="table" tableValues="1 1"></feFuncA>
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in"></feComposite>
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-grayscale">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix>
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0 1"></feFuncR>
+					<feFuncG type="table" tableValues="0 1"></feFuncG>
+					<feFuncB type="table" tableValues="0 1"></feFuncB>
+					<feFuncA type="table" tableValues="1 1"></feFuncA>
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in"></feComposite>
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-purple-yellow">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix>
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR>
+					<feFuncG type="table" tableValues="0 1"></feFuncG>
+					<feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB>
+					<feFuncA type="table" tableValues="1 1"></feFuncA>
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in"></feComposite>
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-blue-red">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix>
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0 1"></feFuncR>
+					<feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG>
+					<feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB>
+					<feFuncA type="table" tableValues="1 1"></feFuncA>
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in"></feComposite>
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-midnight">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix>
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0 0"></feFuncR>
+					<feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG>
+					<feFuncB type="table" tableValues="0 1"></feFuncB>
+					<feFuncA type="table" tableValues="1 1"></feFuncA>
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in"></feComposite>
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-magenta-yellow">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix>
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR>
+					<feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG>
+					<feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB>
+					<feFuncA type="table" tableValues="1 1"></feFuncA>
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in"></feComposite>
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-purple-green">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix>
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR>
+					<feFuncG type="table" tableValues="0 1"></feFuncG>
+					<feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB>
+					<feFuncA type="table" tableValues="1 1"></feFuncA>
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in"></feComposite>
+			</filter>
+		</defs>
+	</svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+		<defs>
+			<filter id="wp-duotone-blue-orange">
+				<feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix>
+				<feComponentTransfer color-interpolation-filters="sRGB">
+					<feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR>
+					<feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG>
+					<feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB>
+					<feFuncA type="table" tableValues="1 1"></feFuncA>
+				</feComponentTransfer>
+				<feComposite in2="SourceGraphic" operator="in"></feComposite>
+			</filter>
+		</defs>
+	</svg>
+	<div data-elementor-type="wp-page" data-elementor-id="9" class="elementor elementor-9">
+
+
+
+
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" id="navbar" class="elementor-section elementor-top-section elementor-element elementor-element-2a73f06a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2a73f06a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-82655b3" data-id="82655b3" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e9258b9 elementor-widget elementor-widget-image animated fadeInLeft" data-id="e9258b9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<style>
+									/*! elementor - v3.12.1 - 02-04-2023 */
+									.elementor-widget-image {
+										text-align: center
+									}
+
+									.elementor-widget-image a {
+										display: inline-block
+									}
+
+									.elementor-widget-image a img[src$=".svg"] {
+										width: 48px
+									}
+
+									.elementor-widget-image img {
+										vertical-align: middle;
+										display: inline-block
+									}
+								</style> <a href=""><img decoding="async" width="800" height="348" src="main-logo-removebg-preview.png" class="attachment-large size-large wp-image-788" alt="" loading="lazy" srcset="main-logo-removebg-preview.png 1024w, main-logo-removebg-preview.png 300w, main-logo-removebg-preview.png 768w, main-logo-removebg-preview.png 1536w, main-logo-removebg-preview.png 2048w" sizes="(max-width: 800px) 100vw, 800px"> </a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5d9be12" data-id="5d9be12" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-345302e elementor-widget elementor-widget-ekit-nav-menu animated fadeInDown" data-id="345302e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="ekit-nav-menu.default">
+							<div class="elementor-widget-container">
+								<div class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon="" data-hamburger-icon-type="icon" data-responsive-breakpoint="1024"> <button class="elementskit-menu-hamburger elementskit-menu-toggler elementskit-lite" type="button" aria-label="hamburger-icon">
+										<span class="elementskit-menu-hamburger-icon elementskit-lite"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon elementskit-lite"></span>
+									</button>
+									<div id="ekit-megamenu-menuu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default elementskit_line_arrow ekit-nav-menu-one-page-no ekit-nav-dropdown-hover" ekit-dom-added="yes">
+										<ul id="menu-menuu" class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-icon">
+											<li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#About" class="ekit-menu-nav-link">About</a></li>
+											<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#tokenomics" class="ekit-menu-nav-link">Tokenomics</a></li>
+											<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#Roadmap" class="ekit-menu-nav-link">Roadmap</a></li>
+										</ul>
+										<div class="elementskit-nav-identity-panel">
+											<div class="elementskit-site-title">
+												<a class="elementskit-nav-logo" href="" rel="" target="_self">
+													<img width="3633" height="1578" src="main-logo-removebg-preview.png" class="attachment-full size-full" alt="" decoding="async" loading="lazy" srcset="main-logo-removebg-preview.png 3633w, main-logo-removebg-preview.png 300w, main-logo-removebg-preview.png 1024w, main-logo-removebg-preview.png 768w, main-logo-removebg-preview.png 1536w, main-logo-removebg-preview.png 2048w" sizes="(max-width: 3633px) 100vw, 3633px">
+												</a>
+											</div><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button>
+										</div>
+									</div>
+									<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="announcement-bar">
+			<marquee behavior="scroll" direction="left" scrollamount="7">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun1-1.PNG" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun2.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun3.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun4.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun1.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun2.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun3.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun4.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun1.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun2.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun3.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun4.png" alt="Walter's Image" class="announcement-img">
+				<span class="announcement-text">Beth is live! don't fade the biggest pet on ETH!</span>
+				<img src="bun1.png" alt="Walter's Image" class="announcement-img">
+			</marquee>
+		</div>
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-4bcc6f12 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="4bcc6f12" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_bottom&quot;:&quot;curve&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-background-overlay"></div>
+			<div class="elementor-shape elementor-shape-bottom" data-negative="true">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+					<path class="elementor-shape-fill" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
+				</svg>
+			</div>
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-28a08f0" data-id="28a08f0" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b42dd90 elementor-widget elementor-widget-heading animated zoomIn" data-id="b42dd90" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<style>
+									/*! elementor - v3.12.1 - 02-04-2023 */
+									.elementor-heading-title {
+										padding: 0;
+										margin: 0;
+										line-height: 1
+									}
+
+									.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+										color: inherit;
+										font-size: inherit;
+										line-height: inherit
+									}
+
+									.elementor-widget-heading .elementor-heading-title.elementor-size-small {
+										font-size: 15px
+									}
+
+									.elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+										font-size: 19px
+									}
+
+									.elementor-widget-heading .elementor-heading-title.elementor-size-large {
+										font-size: 29px
+									}
+
+									.elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+										font-size: 39px
+									}
+
+									.elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+										font-size: 59px
+									}
+								</style>
+								<h2 class="elementor-heading-title elementor-size-default">BETH</h2>
+								<h3 class="elementor-heading-title elementor-size-small" style="font-size: 35px;">
+									The cutest bunny <br> on ETH.</h3>
+							</div>
+						</div>
+						<div class="elementor-widget-wrap elementor-element-populated">
+							<div class="elementor-element elementor-element-44215102 e-grid-align-left e-grid-align-tablet-center e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons animated fadeInLeft" data-id="44215102" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="social-icons.default">
+								<div class="elementor-widget-container">
+									<style>
+										/*! elementor - v3.12.1 - 02-04-2023 */
+										.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+										.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+										.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
+											line-height: 1;
+											font-size: 0
+										}
+
+										.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+											display: inline-grid
+										}
+
+										.elementor-widget-social-icons .elementor-grid {
+											grid-column-gap: var(--grid-column-gap, 5px);
+											grid-row-gap: var(--grid-row-gap, 5px);
+											grid-template-columns: var(--grid-template-columns);
+											justify-content: var(--justify-content, center);
+											justify-items: var(--justify-content, center)
+										}
+
+										.elementor-icon.elementor-social-icon {
+											font-size: var(--icon-size, 25px);
+											line-height: var(--icon-size, 25px);
+											width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));
+											height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))
+										}
+
+										.elementor-social-icon {
+											--e-social-icon-icon-color: #fff;
+											display: inline-flex;
+											background-color: #69727d;
+											align-items: center;
+											justify-content: center;
+											text-align: center;
+											cursor: pointer
+										}
+
+										.elementor-social-icon i {
+											color: var(--e-social-icon-icon-color)
+										}
+
+										.elementor-social-icon svg {
+											fill: var(--e-social-icon-icon-color)
+										}
+
+										.elementor-social-icon:last-child {
+											margin: 0
+										}
+
+										.elementor-social-icon:hover {
+											opacity: .9;
+											color: #fff
+										}
+
+										.elementor-social-icon-android {
+											background-color: #a4c639
+										}
+
+										.elementor-social-icon-apple {
+											background-color: #999
+										}
+
+										.elementor-social-icon-behance {
+											background-color: #1769ff
+										}
+
+										.elementor-social-icon-bitbucket {
+											background-color: #205081
+										}
+
+										.elementor-social-icon-codepen {
+											background-color: #000
+										}
+
+										.elementor-social-icon-delicious {
+											background-color: #39f
+										}
+
+										.elementor-social-icon-deviantart {
+											background-color: #05cc47
+										}
+
+										.elementor-social-icon-digg {
+											background-color: #005be2
+										}
+
+										.elementor-social-icon-dribbble {
+											background-color: #ea4c89
+										}
+
+										.elementor-social-icon-elementor {
+											background-color: #d30c5c
+										}
+
+										.elementor-social-icon-envelope {
+											background-color: #ea4335
+										}
+
+										.elementor-social-icon-facebook,
+										.elementor-social-icon-facebook-f {
+											background-color: #3b5998
+										}
+
+										.elementor-social-icon-flickr {
+											background-color: #0063dc
+										}
+
+										.elementor-social-icon-foursquare {
+											background-color: #2d5be3
+										}
+
+										.elementor-social-icon-free-code-camp,
+										.elementor-social-icon-freecodecamp {
+											background-color: #006400
+										}
+
+										.elementor-social-icon-github {
+											background-color: #333
+										}
+
+										.elementor-social-icon-gitlab {
+											background-color: #e24329
+										}
+
+										.elementor-social-icon-globe {
+											background-color: #69727d
+										}
+
+										.elementor-social-icon-google-plus,
+										.elementor-social-icon-google-plus-g {
+											background-color: #dd4b39
+										}
+
+										.elementor-social-icon-houzz {
+											background-color: #7ac142
+										}
+
+										.elementor-social-icon-instagram {
+											background-color: #262626
+										}
+
+										.elementor-social-icon-jsfiddle {
+											background-color: #487aa2
+										}
+
+										.elementor-social-icon-link {
+											background-color: #818a91
+										}
+
+										.elementor-social-icon-linkedin,
+										.elementor-social-icon-linkedin-in {
+											background-color: #0077b5
+										}
+
+										.elementor-social-icon-medium {
+											background-color: #00ab6b
+										}
+
+										.elementor-social-icon-meetup {
+											background-color: #ec1c40
+										}
+
+										.elementor-social-icon-mixcloud {
+											background-color: #273a4b
+										}
+
+										.elementor-social-icon-odnoklassniki {
+											background-color: #f4731c
+										}
+
+										.elementor-social-icon-pinterest {
+											background-color: #bd081c
+										}
+
+										.elementor-social-icon-product-hunt {
+											background-color: #da552f
+										}
+
+										.elementor-social-icon-reddit {
+											background-color: #ff4500
+										}
+
+										.elementor-social-icon-rss {
+											background-color: #f26522
+										}
+
+										.elementor-social-icon-shopping-cart {
+											background-color: #4caf50
+										}
+
+										.elementor-social-icon-skype {
+											background-color: #00aff0
+										}
+
+										.elementor-social-icon-slideshare {
+											background-color: #0077b5
+										}
+
+										.elementor-social-icon-snapchat {
+											background-color: #fffc00
+										}
+
+										.elementor-social-icon-soundcloud {
+											background-color: #f80
+										}
+
+										.elementor-social-icon-spotify {
+											background-color: #2ebd59
+										}
+
+										.elementor-social-icon-stack-overflow {
+											background-color: #fe7a15
+										}
+
+										.elementor-social-icon-steam {
+											background-color: #00adee
+										}
+
+										.elementor-social-icon-stumbleupon {
+											background-color: #eb4924
+										}
+
+										.elementor-social-icon-telegram {
+											background-color: #2ca5e0
+										}
+
+										.elementor-social-icon-thumb-tack {
+											background-color: #1aa1d8
+										}
+
+										.elementor-social-icon-tripadvisor {
+											background-color: #589442
+										}
+
+										.elementor-social-icon-tumblr {
+											background-color: #35465c
+										}
+
+										.elementor-social-icon-twitch {
+											background-color: #6441a5
+										}
+
+										.elementor-social-icon-twitter {
+											background-color: #1da1f2
+										}
+
+										.elementor-social-icon-viber {
+											background-color: #665cac
+										}
+
+										.elementor-social-icon-vimeo {
+											background-color: #1ab7ea
+										}
+
+										.elementor-social-icon-vk {
+											background-color: #45668e
+										}
+
+										.elementor-social-icon-weibo {
+											background-color: #dd2430
+										}
+
+										.elementor-social-icon-weixin {
+											background-color: #31a918
+										}
+
+										.elementor-social-icon-whatsapp {
+											background-color: #25d366
+										}
+
+										.elementor-social-icon-wordpress {
+											background-color: #21759b
+										}
+
+										.elementor-social-icon-xing {
+											background-color: #026466
+										}
+
+										.elementor-social-icon-yelp {
+											background-color: #af0606
+										}
+
+										.elementor-social-icon-youtube {
+											background-color: #cd201f
+										}
+
+										.elementor-social-icon-500px {
+											background-color: #0099e5
+										}
+
+										.elementor-shape-rounded .elementor-icon.elementor-social-icon {
+											border-radius: 10%
+										}
+
+										.elementor-shape-circle .elementor-icon.elementor-social-icon {
+											border-radius: 50%
+										}
+									</style>
+									<div class="elementor-social-icons-wrapper elementor-grid" style="gap: 1px;">
+										<span class="elementor-grid-item"> <!-- update pumpfun link here-->
+											<a class="elementor-icon elementor-social-icon elementor-social-icon-telegram-plane elementor-animation-push elementor-repeater-item-1ca55ab" style="background-color: white;" href="https://ape.store" target="_blank">
+												<span class="elementor-screen-only">Pumpfun-plane</span>
+												<img src="EmT4yP6S_400x400.png">
+											</a>
+										</span>
+
+										<span class="elementor-grid-item"> <!-- update pumpfun link here-->
+											<a class="elementor-icon elementor-social-icon elementor-social-icon-telegram-plane elementor-animation-push elementor-repeater-item-1ca55ab" style="background-color: white;" href="https://t.me/bethportal" target="_blank">
+												<span class="elementor-screen-only">Telegram-plane</span>
+												<img src="telegram-logo-telegram-logo-transparent-telegram-icon-transparent-free-free-png.png">
+											</a>
+										</span>
+										<span class="elementor-grid-item">
+											<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-push elementor-repeater-item-2718ad2" style="background-color: black;" href="https://x.com/BethOnEth" target="_blank">
+												<span class="elementor-screen-only">Twitter</span>
+												<!--i class="fab fa-twitter"></i>--> <img src="1690643591twitter-x-logo-png.png">
+											</a>
+										</span>
+										<span class="elementor-grid-item"> <!-- update dexscreener link here-->
+											<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-push elementor-repeater-item-2718ad2" style="background-color: #00C0E4;" href="https://dexscreener.com/" target="_blank">
+												<span class="elementor-screen-only">Dexscreener</span>
+												<img src="unnamed.png">
+											</a>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h2 class="elementor-heading-title elementor-size-small" style="margin-top: 20px; font-size: 22px; color: white;-webkit-text-stroke-width: 1px;
+		stroke-width: 1px;
+		-webkit-text-stroke-color: #000;
+		stroke: #000; ">
+							CA is Live! <br>
+					</i> Updated soon :) </span>
+							<!-- update CA here! -->
+						</h2>
+
+
+					</div>
+				</div>
+
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-72dd2042" data-id="72dd2042" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3fe5aaa elementor-widget elementor-widget-image" data-id="3fe5aaa" data-element_type="widget" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<img decoding="async" width="400" height="350" src="Untitled_Artwork.png" class="attachment-large size-large wp-image-745" alt="" loading="lazy" srcset="Untitled_Artwork.png 1024w, Untitled_Artwork.png 300w, Untitled_Artwork.png 768w, Untitled_Artwork.png 1536w, Untitled_Artwork.png 2048w" sizes="(max-width: 800px) 100vw, 800px">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-0f98853 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0f98853" data-element_type="section" id="About" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-background-overlay"></div>
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-58091bb" data-id="58091bb" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-background-overlay"></div>
+						<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-element-43d88c2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="43d88c2" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+							<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-3452d85 animated fadeInUp" data-id="3452d85" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-06544dc elementor-widget elementor-widget-heading animated zoomIn" data-id="06544dc" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h2 class="elementor-heading-title elementor-size-default">Who is
+													BETH?
+												</h2>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-898bfbc elementor-widget elementor-widget-text-editor animated zoomIn" data-id="898bfbc" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+												<style>
+													/*! elementor - v3.12.1 - 02-04-2023 */
+													.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+														background-color: #69727d;
+														color: #fff
+													}
+
+													.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+														color: #69727d;
+														border: 3px solid;
+														background-color: transparent
+													}
+
+													.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+														margin-top: 8px
+													}
+
+													.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+														width: 1em;
+														height: 1em
+													}
+
+													.elementor-widget-text-editor .elementor-drop-cap {
+														float: left;
+														text-align: center;
+														line-height: 1;
+														font-size: 50px
+													}
+
+													.elementor-widget-text-editor .elementor-drop-cap-letter {
+														display: inline-block
+													}
+												</style>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="elementor-element elementor-element-0424552 elementor-widget elementor-widget-text-editor" data-id="0424552" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+								<p style="font-size: 28px;">In order to explain what Beth is all about we got our
+									hands
+									on a special voice recording</p>
+								<p>Beth's original recording. date unkown</p>
+								<div id="audioContainer">
+									<audio id="audioPlayer" controls="">
+										<source src="Bunny.MP3" type="audio/mpeg">
+										
+									</audio>
+
+							
+									<div id="captionsContainer" style="display: none;">
+										To be honest, I am just a bunny
+										I don't know why these idiots put my face on a coin
+									</div>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-5b5797f elementor-widget__width-initial elementor-widget elementor-widget-eael-creative-button animated fadeInRight" data-id="5b5797f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="eael-creative-button.default">
+								<div class="elementor-widget-container">
+									<div class="eael-creative-button-wrapper">
+
+									</div>
+								</div>
+							</div>
+							<div class="elementor-element elementor-element-d48781c elementor-widget__width-initial elementor-widget elementor-widget-eael-creative-button animated fadeInLeft" data-id="d48781c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="eael-creative-button.default">
+								<div class="elementor-widget-container">
+									<div class="eael-creative-button-wrapper">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div></section>
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-9bb6a20 elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9bb6a20" data-element_type="section" id="tokenomics" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;curve&quot;,&quot;shape_divider_top_negative&quot;:&quot;yes&quot;,&quot;shape_divider_bottom&quot;:&quot;curve&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-background-overlay"></div>
+			<div class="elementor-shape elementor-shape-top" data-negative="true">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+					<path class="elementor-shape-fill" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
+				</svg>
+			</div>
+			<div class="elementor-shape elementor-shape-bottom" data-negative="true">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+					<path class="elementor-shape-fill" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
+				</svg>
+			</div>
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4c1d540 animated fadeInUp" data-id="4c1d540" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated" style="	background-color: transparent;  ">
+						<div class="elementor-element elementor-element-dc67f42 elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box animated fadeInLeft" data-id="dc67f42" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="icon-box.default">
+							<div class="elementor-widget-container">
+								<link rel="stylesheet" href="widget-icon-box.min.css">
+								<div class="elementor-icon-box-wrapper">
+									<div class="elementor-icon-box-content">
+										<h2 class="elementor-icon-box-title">
+											<span style="color: #ef79a1 !important;">
+												Burning </span>
+										</h2>
+										<div class="elementor-icon-box-title" style="color: #ef79a1 !important; font-size: 15px; letter-spacing: 1px;">supply</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c73b6ce animated fadeInUp" data-id="c73b6ce" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0a2a080 elementor-widget elementor-widget-heading animated zoomIn" data-id="0a2a080" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<p class="elementor-heading-title elementor-size-small" style="font-size: 40px !important; color: #ef79a1 !important;">tokenomics</p>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-e84c36a elementor-widget elementor-widget-text-editor animated zoomIn" data-id="e84c36a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-9758440 elementor-widget elementor-widget-eael-creative-button animated fadeInRight" data-id="9758440" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="eael-creative-button.default">
+							<div class="elementor-widget-container">
+								<div class="eael-creative-button-wrapper">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4405ba1 animated fadeInUp" data-id="4405ba1" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a7bf880 elementor-widget animated fadeInRight" data-id="a7bf880" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="image.default">
+							<div class="elementor-widget-container" style="background-color: transparent; border-style: none; border-width: none; border-color: transparent; border-radius: 0; box-shadow: none;">
+								<img src="tokenomics.png" alt="Description of Image" style="width: 80%; height: auto;">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-3f011d8 elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3f011d8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;curve&quot;,&quot;shape_divider_top_negative&quot;:&quot;yes&quot;,&quot;shape_divider_bottom&quot;:&quot;curve&quot;,&quot;shape_divider_bottom_negative&quot;:&quot;yes&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-background-overlay"></div>
+			<div class="elementor-shape elementor-shape-top" data-negative="true">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+					<path class="elementor-shape-fill" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
+				</svg>
+			</div>
+			<div class="elementor-shape elementor-shape-bottom" data-negative="true">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+					<path class="elementor-shape-fill" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
+				</svg>
+			</div>
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-95a5aa8 elementor-invisible" data-id="95a5aa8" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a5724fc elementor-invisible elementor-widget elementor-widget-heading" data-id="a5724fc" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default" style="color: #ef79a1 !important; margin-bottom: 50px; font-size: 35px;">tokenomics
+								</h2>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-5703c31 elementor-view-default elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-icon-box" data-id="5703c31" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="icon-box.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-icon-box-wrapper">
+									<div class="elementor-icon-box-content">
+										<h2 class="elementor-icon-box-title">
+											<span style="color: #ef79a1 !important; font-size: 28px;">
+												Burning </span>
+										</h2>
+
+										<div class="elementor-icon-box-title" style="color: #ef79a1 !important; font-size: 15px; letter-spacing: 1px;">Dev
+											wallet tokens</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-6be70ab elementor-widget elementor-widget-text-editor" data-id="6be70ab" data-element_type="widget" data-widget_type="text-editor.default">
+							<div class="elementor-widget-container">
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-84998d6 elementor-invisible elementor-widget elementor-widget-eael-creative-button" data-id="84998d6" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="eael-creative-button.default">
+							<div class="elementor-widget-container">
+								<div class="eael-creative-button-wrapper">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-e7c022e elementor-invisible" data-id="e7c022e" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated" style="	background-color: transparent; border-style: none; border-width: none; border-color: transparent; border-radius: 0; box-shadow: none;">
+						<div class="elementor-element elementor-element-5703c31 elementor-view-default elementor-vertical-align-top elementor-invisible elementor-widget elementor-widget-icon-box" data-id="5703c31" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="icon-box.default">
+
+						</div>
+					</div>
+				</div>
+
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4405ba1 elementor-invisible" data-id="4405ba1" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}" style="margin-left: 50px;">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a7bf880 elementor-invisible elementor-widget" data-id="a7bf880" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="image.default">
+							<div class="elementor-widget-container" style="background-color: transparent; border-style: none; border-width: none; border-color: transparent; border-radius: 0; box-shadow: none;">
+								<img src="tokenomics.png" alt="Description of Image" style="width: 80%; height: auto;">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-7caafd30 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7caafd30" data-element_type="section" id="Roadmap" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-background-overlay"></div>
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1ec556f8" data-id="1ec556f8" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7b5872e elementor-widget elementor-widget-heading animated zoomIn" data-id="7b5872e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">ROADMAP</h2>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-eca40c1 elementor-widget elementor-widget-text-editor animated zoomIn" data-id="eca40c1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="text-editor.default">
+						</div>
+						<img src="roadmap.JPG" alt="Roadmap Image" style="width: 100vw; display: block;">
+					</div>
+
+				</div>
+
+		</div></section>
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-188fe70c elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="188fe70c" data-element_type="section" style="padding-top: 0; padding-bottom: 0; background-color: aliceblue;" id="Team" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6b53999f" data-id="6b53999f" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-element-252bad96 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="252bad96" data-element_type="section" data-settings="{&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+							<div class="elementor-container elementor-column-gap-default" style="display: flex; justify-content: center;">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-54532d8" data-id="54532d8" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-72d525c elementor-widget elementor-widget-heading animated zoomIn" data-id="72d525c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h3 class="elementor-heading-title elementor-size-default" style="font-size: 35px; color: #ef79a1 !important; ">Our top
+													investors</h3>
+												<p> Just some of our investors who you might recognize.</p>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-06cafe4 elementor-widget elementor-widget-text-editor animated zoomIn" data-id="06cafe4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-dc622aa elementor-widget elementor-widget-eael-creative-button animated fadeInRight" data-id="dc622aa" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="eael-creative-button.default">
+											<div class="elementor-widget-container">
+												<div class="eael-creative-button-wrapper">
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" style="background-color: aliceblue;" class="elementor-section elementor-top-section elementor-element elementor-element-3663434 elementor-hidden-desktop elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3663434" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3928d53" data-id="3928d53" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-inner-section elementor-element elementor-element-43af429 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="43af429" data-element_type="section" data-settings="{&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+							<div class="elementor-container elementor-column-gap-default">
+								<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-837da28" data-id="837da28" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+									<div class="elementor-widget-wrap elementor-element-populated">
+										<div class="elementor-element elementor-element-cc22ca1 elementor-invisible elementor-widget elementor-widget-heading" data-id="cc22ca1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+											<div class="elementor-widget-container">
+												<h2 class="elementor-heading-title elementor-size-default" style="color: #ef79a1 !important;">Our top investors</h2>
+												<p> Click to hear what they had to say about Beth</p>
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-bb0b83e elementor-widget elementor-widget-text-editor" data-id="bb0b83e" data-element_type="widget" data-widget_type="text-editor.default">
+											<div class="elementor-widget-container">
+											</div>
+										</div>
+										<div class="elementor-element elementor-element-e733eca elementor-invisible elementor-widget elementor-widget-eael-creative-button" data-id="e733eca" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="eael-creative-button.default">
+											<div class="elementor-widget-container">
+												<div class="eael-creative-button-wrapper">
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-e6cbf49 elementor-section-boxed elementor-section-height-default elementor-section-height-default" style="background-color: aliceblue;" data-id="e6cbf49" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-container elementor-column-gap-default" style="display: flex; justify-content: center;">
+				<div class="elementor-column elementor-col-12 elementor-top-column elementor-element elementor-element-2331486" data-id="2331486" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b1d738e elementor-widget elementor-widget-image animated fadeInDown" data-id="b1d738e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<a id="image1" style="cursor: default;">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-12 elementor-top-column elementor-element elementor-element-cd05d0b" data-id="cd05d0b" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-068860f elementor-widget elementor-widget-image animated fadeInUp" data-id="068860f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-12 elementor-top-column elementor-element elementor-element-4e6f250" data-id="4e6f250" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-03f9e49 elementor-widget elementor-widget-image animated fadeInDown" data-id="03f9e49" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-12 elementor-top-column elementor-element elementor-element-a6243bd" data-id="a6243bd" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-dd74b2f elementor-widget elementor-widget-image animated fadeInUp" data-id="dd74b2f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-12 elementor-top-column elementor-element elementor-element-d5e1ef5" data-id="d5e1ef5" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-21b1b45 elementor-widget elementor-widget-image animated fadeInDown" data-id="21b1b45" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-12 elementor-top-column elementor-element elementor-element-2dcb4ab" data-id="2dcb4ab" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5a07caf elementor-widget elementor-widget-image animated fadeInUp" data-id="5a07caf" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-c38ce7f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c38ce7f" data-element_type="section" id="Contact" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-background-overlay"></div>
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-448bdc39" data-id="448bdc39" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-44215102 e-grid-align-left e-grid-align-tablet-center e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons animated fadeInLeft" data-id="44215102" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="social-icons.default">
+							<div class="elementor-widget-container">
+								<style>
+									/*! elementor - v3.12.1 - 02-04-2023 */
+									.elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+									.elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+									.elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
+										line-height: 1;
+										font-size: 0;
+									}
+
+									.elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+										display: inline-grid;
+									}
+
+									.elementor-widget-social-icons .elementor-grid {
+										grid-column-gap: var(--grid-column-gap, 5px);
+										grid-row-gap: var(--grid-row-gap, 5px);
+										grid-template-columns: var(--grid-template-columns);
+										justify-content: var(--justify-content, center);
+										justify-items: var(--justify-content, center);
+									}
+
+									.elementor-icon.elementor-social-icon {
+										font-size: var(--icon-size, 25px);
+										line-height: var(--icon-size, 25px);
+										width: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)));
+										height: calc(var(--icon-size, 25px) + (2 * var(--icon-padding, .5em)))
+									}
+
+									.elementor-social-icon {
+										--e-social-icon-icon-color: #fff;
+										display: inline-flex;
+										background-color: #69727d;
+										align-items: center;
+										justify-content: center;
+										text-align: center;
+										cursor: pointer
+									}
+
+									.elementor-social-icon i {
+										color: var(--e-social-icon-icon-color)
+									}
+
+									.elementor-social-icon svg {
+										fill: var(--e-social-icon-icon-color)
+									}
+
+									.elementor-social-icon:last-child {
+										margin: 0
+									}
+
+									.elementor-social-icon:hover {
+										opacity: .9;
+										color: #fff
+									}
+
+									.elementor-social-icon-android {
+										background-color: #a4c639
+									}
+
+									.elementor-social-icon-apple {
+										background-color: #999
+									}
+
+									.elementor-social-icon-behance {
+										background-color: #1769ff
+									}
+
+									.elementor-social-icon-bitbucket {
+										background-color: #205081
+									}
+
+									.elementor-social-icon-codepen {
+										background-color: #000
+									}
+
+									.elementor-social-icon-delicious {
+										background-color: #39f
+									}
+
+									.elementor-social-icon-deviantart {
+										background-color: #05cc47
+									}
+
+									.elementor-social-icon-digg {
+										background-color: #005be2
+									}
+
+									.elementor-social-icon-dribbble {
+										background-color: #ea4c89
+									}
+
+									.elementor-social-icon-elementor {
+										background-color: #d30c5c
+									}
+
+									.elementor-social-icon-envelope {
+										background-color: #ea4335
+									}
+
+									.elementor-social-icon-facebook,
+									.elementor-social-icon-facebook-f {
+										background-color: #3b5998
+									}
+
+									.elementor-social-icon-flickr {
+										background-color: #0063dc
+									}
+
+									.elementor-social-icon-foursquare {
+										background-color: #2d5be3
+									}
+
+									.elementor-social-icon-free-code-camp,
+									.elementor-social-icon-freecodecamp {
+										background-color: #006400
+									}
+
+									.elementor-social-icon-github {
+										background-color: #333
+									}
+
+									.elementor-social-icon-gitlab {
+										background-color: #e24329
+									}
+
+									.elementor-social-icon-globe {
+										background-color: #69727d
+									}
+
+									.elementor-social-icon-google-plus,
+									.elementor-social-icon-google-plus-g {
+										background-color: #dd4b39
+									}
+
+									.elementor-social-icon-houzz {
+										background-color: #7ac142
+									}
+
+									.elementor-social-icon-instagram {
+										background-color: #262626
+									}
+
+									.elementor-social-icon-jsfiddle {
+										background-color: #487aa2
+									}
+
+									.elementor-social-icon-link {
+										background-color: #818a91
+									}
+
+									.elementor-social-icon-linkedin,
+									.elementor-social-icon-linkedin-in {
+										background-color: #0077b5
+									}
+
+									.elementor-social-icon-medium {
+										background-color: #00ab6b
+									}
+
+									.elementor-social-icon-meetup {
+										background-color: #ec1c40
+									}
+
+									.elementor-social-icon-mixcloud {
+										background-color: #273a4b
+									}
+
+									.elementor-social-icon-odnoklassniki {
+										background-color: #f4731c
+									}
+
+									.elementor-social-icon-pinterest {
+										background-color: #bd081c
+									}
+
+									.elementor-social-icon-product-hunt {
+										background-color: #da552f
+									}
+
+									.elementor-social-icon-reddit {
+										background-color: #ff4500
+									}
+
+									.elementor-social-icon-rss {
+										background-color: #f26522
+									}
+
+									.elementor-social-icon-shopping-cart {
+										background-color: #4caf50
+									}
+
+									.elementor-social-icon-skype {
+										background-color: #00aff0
+									}
+
+									.elementor-social-icon-slideshare {
+										background-color: #0077b5
+									}
+
+									.elementor-social-icon-snapchat {
+										background-color: #fffc00
+									}
+
+									.elementor-social-icon-soundcloud {
+										background-color: #f80
+									}
+
+									.elementor-social-icon-spotify {
+										background-color: #2ebd59
+									}
+
+									.elementor-social-icon-stack-overflow {
+										background-color: #fe7a15
+									}
+
+									.elementor-social-icon-steam {
+										background-color: #00adee
+									}
+
+									.elementor-social-icon-stumbleupon {
+										background-color: #eb4924
+									}
+
+									.elementor-social-icon-telegram {
+										background-color: #2ca5e0
+									}
+
+									.elementor-social-icon-thumb-tack {
+										background-color: #1aa1d8
+									}
+
+									.elementor-social-icon-tripadvisor {
+										background-color: #589442
+									}
+
+									.elementor-social-icon-tumblr {
+										background-color: #35465c
+									}
+
+									.elementor-social-icon-twitch {
+										background-color: #6441a5
+									}
+
+									.elementor-social-icon-twitter {
+										background-color: #1da1f2
+									}
+
+									.elementor-social-icon-viber {
+										background-color: #665cac
+									}
+
+									.elementor-social-icon-vimeo {
+										background-color: #1ab7ea
+									}
+
+									.elementor-social-icon-vk {
+										background-color: #45668e
+									}
+
+									.elementor-social-icon-weibo {
+										background-color: #dd2430
+									}
+
+									.elementor-social-icon-weixin {
+										background-color: #31a918
+									}
+
+									.elementor-social-icon-whatsapp {
+										background-color: #25d366
+									}
+
+									.elementor-social-icon-wordpress {
+										background-color: #21759b
+									}
+
+									.elementor-social-icon-xing {
+										background-color: #026466
+									}
+
+									.elementor-social-icon-yelp {
+										background-color: #af0606
+									}
+
+									.elementor-social-icon-youtube {
+										background-color: #cd201f
+									}
+
+									.elementor-social-icon-500px {
+										background-color: #0099e5
+									}
+
+									.elementor-shape-rounded .elementor-icon.elementor-social-icon {
+										border-radius: 10%
+									}
+
+									.elementor-shape-circle .elementor-icon.elementor-social-icon {
+										border-radius: 50%
+									}
+								</style>
+
+								<style>
+									.elementor-image-button-wrapper {
+										display: flex;
+										flex-direction: column;
+										align-items: center;
+										text-align: center;
+										/* Ensure text alignment for the button */
+									}
+
+									.elementor-custom-image {
+										width: 100%;
+										/* Adjust width as needed */
+										max-width: 300px;
+										/* Adjust max-width as needed */
+										height: auto;
+										margin-bottom: 20px;
+										/* Adjust space between image and button */
+									}
+
+									.elementor-custom-button {
+										background-color: #00C0E4;
+										/* Button background color */
+										color: white;
+										/* Button text color */
+										padding: 10px 20px;
+										/* Adjust padding for button size */
+										text-align: center;
+										text-decoration: none;
+										font-size: 16px;
+										/* Adjust font size */
+										border-radius: 5px;
+										/* Rounded corners */
+										transition: background-color 0.3s;
+										/* Smooth transition */
+										display: inline-block;
+										/* Ensure the button is inline-block for proper centering */
+									}
+
+									.elementor-custom-button:hover {
+										background-color: #008bbf;
+										/* Hover background color */
+									}
+								</style>
+
+								<div class="elementor-image-button-wrapper">
+									<img src="joinTG.PNG" alt="Your Image" class="elementor-custom-image" style="width: 200px;">
+									<a href="https://t.me/nethportal" class="elementor-custom-button" target="_blank" style="margin-left: 15px;">Join Now!</a>
+									<!-- update link here-->
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-396105a0" data-id="396105a0" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9781ffa elementor-widget elementor-widget-heading animated zoomIn" data-id="9781ffa" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="heading.default">
+							<div class="elementor-widget-container" style="text-align: center;">
+								<h2 class="elementor-heading-title elementor-size-default">Beth, an ethereum mascot.</h2>
+							</div>
+						</div>
+						<div class="elementor-element elementor-element-9781ffa elementor-widget elementor-widget-image animated zoomIn" data-id="9781ffa" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="image.default">
+							<div class="elementor-widget-container">
+								<div style="height: 400px;">
+									<img id="panImage" decoding="async" width="800" height="771" src="bun1-1.PNG" class="attachment-large size-large wp-image-745" alt="" loading="lazy" sizes="(max-width: 800px) 100vw, 800px">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f78b5b8" data-id="f78b5b8" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-656dcd4 elementor-widget elementor-widget-heading animated fadeInRight" data-id="656dcd4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">Carrots</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-section elementor-top-section elementor-element elementor-element-1f082084 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1f082084" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;mdp_selection_sticky_effect_enable&quot;:false}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4a3f0f92" data-id="4a3f0f92" data-element_type="column" data-settings="{&quot;mdp_selection_sticky_column_effect_enable&quot;:false}">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-cba3397 elementor-widget elementor-widget-heading animated fadeInUp" data-id="cba3397" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+							<div class="elementor-widget-container">
+								<h2 class="elementor-heading-title elementor-size-default">©2024 BETH. website made by
+									<a href="https://t.me/rabbsxyz" target="_blank">@rabbsxyz</a>
+								</h2>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div id="popup" class="popup">
+		<div class="popup-content">
+			<img src="nojeets.png" alt="Image" class="popup-image">
+			<p>This website does not allow JEETS.<br>Please confirm you are not a jeet or F*CK OFF!</p>
+			<button id="confirm-button">Confirm</button>
+		</div>
+	</div>
+	<style>
+		.popup {
+			display: none;
+			/* Hidden by default */
+			position: fixed;
+			z-index: 1000;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			background-color: rgba(0, 0, 0, 0.5);
+			width: 100%;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.popup-content {
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+			text-align: center;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.popup-image {
+			width: 100%;
+			max-width: 300px;
+			height: auto;
+			margin-bottom: 20px;
+		}
+
+		#confirm-button {
+			padding: 10px 20px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		#confirm-button:hover {
+			background-color: #45a049;
+		}
+	</style>
+
+	
+
+
+
+
+	
+	
+	
+	
+	<link rel="stylesheet" id="mdp-crawler-elementor-css" href="crawler-elementor.min4b1d.css" media="all">
+	<link rel="stylesheet" id="mdp-selection-elementor-admin-css" href="elementor-admin.min4b1d.css" media="all">
+	<link rel="stylesheet" id="e-animations-css" href="animations.minfb6f.css" media="all">
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<span id="elementor-device-mode" class="elementor-screen-only"></span>
+	<svg style="display: none;" class="e-font-icon-svg-symbols"></svg>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div id="jupiter-terminal" class="w-full h-full"><div class="fixed bottom-6 right-6"><div class="h-14 w-14 rounded-full bg-black flex items-center justify-center cursor-pointer"><img src="jupiter-logo.png" width="42" height="42" alt="Jupiter aggregator"></div><div id="integrated-terminal" class="absolute overflow-hidden bottom-[60px] -right-3 flex flex-col w-[90vw] h-[600px] max-w-[384px] max-h-[75vh] rounded-2xl bg-v3-modal transition-opacity duration-300 shadow-2xl !h-0 !w-0 opacity-0"><div class="relative h-full"><div class="mt-2 h-7 pl-3 pr-2"><div class="w-full flex items-center justify-between "><a href="https://jup.ag/swap/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v-So11111111111111111111111111111111111111112?inAmount=" target="_blank" rel="noreferrer noopener" class="flex items-center space-x-2"><img src="jupiter-logo.png" width="24" height="24" alt="Jupiter aggregator"><span class="font-bold text-sm text-white">Jupiter</span></a><div class="flex space-x-1 items-center"><button type="button" class="p-2 h-7 w-7 flex items-center justify-center border rounded-full border-white/10 bg-black/10 text-white/30 fill-current"><svg width="12" height="12" viewBox="0 0 12 12" fill="inherit" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_841_4053)"><path d="M11.6466 4.23513V0.706082L10.4111 1.94156C9.3173 0.741165 7.72912 0 6 0C2.6827 0 0 2.6827 0 6C0 9.3173 2.68203 12 6 12C7.69405 12 9.21142 11.2939 10.3059 10.165L9.31797 9.14128C8.50601 10.0234 7.30561 10.5879 6 10.5879C3.45892 10.5879 1.41216 8.5411 1.41216 6.00002C1.41216 3.45894 3.45892 1.41218 6 1.41218C7.34135 1.41218 8.57615 2.01238 9.42317 2.92954L8.11757 4.23515L11.6466 4.23513Z" fill="inherit"></path></g><defs><clipPath id="clip0_841_4053"><rect width="12" height="12" fill="white"></rect></clipPath></defs></svg></button><button type="button" class="p-2 h-7 space-x-1 flex items-center justify-center border rounded-2xl border-white/10 bg-black/10 text-white/30 fill-current"><svg width="12" height="12" viewBox="0 0 12 10" fill="inherit" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.67559 1.39922C4.18425 1.39922 3.78594 1.79753 3.78594 2.28887C3.78594 2.78022 4.18425 3.17853 4.67559 3.17853C5.16694 3.17853 5.56525 2.78022 5.56525 2.28887C5.56525 1.79753 5.16694 1.39922 4.67559 1.39922ZM1.19961 2.88867H2.67329C2.93107 3.75043 3.72998 4.37853 4.67559 4.37853C5.62121 4.37853 6.42012 3.75043 6.67789 2.88867H10.7996C11.131 2.88867 11.3996 2.62004 11.3996 2.28867C11.3996 1.9573 11.131 1.68867 10.7996 1.68867H6.67777C6.41987 0.827121 5.62106 0.199219 4.67559 0.199219C3.73013 0.199219 2.93132 0.827121 2.67342 1.68867H1.19961C0.868239 1.68867 0.599609 1.9573 0.599609 2.28867C0.599609 2.62004 0.868239 2.88867 1.19961 2.88867ZM0.599609 7.58555C0.599609 7.25418 0.868239 6.98555 1.19961 6.98555H5.98367C6.24157 6.124 7.04038 5.49609 7.98585 5.49609C8.93131 5.49609 9.73012 6.124 9.98802 6.98555H10.7995C11.1309 6.98555 11.3995 7.25418 11.3995 7.58555C11.3995 7.91692 11.1309 8.18555 10.7995 8.18555H9.98814C9.73037 9.04731 8.93146 9.6754 7.98585 9.6754C7.04023 9.6754 6.24132 9.04731 5.98355 8.18555H1.19961C0.868239 8.18555 0.599609 7.91692 0.599609 7.58555ZM7.09619 7.58575C7.09619 7.09441 7.4945 6.69609 7.98585 6.69609C8.47719 6.69609 8.8755 7.09441 8.8755 7.58575C8.8755 8.07709 8.47719 8.4754 7.98585 8.4754C7.4945 8.4754 7.09619 8.07709 7.09619 7.58575Z" fill="inherit" fill-opacity="0.5"></path></svg><span class="text-xs text-white-30">0.5%</span></button><div class="!bg-transparent css-1lpgtt2"><button type="button" class="py-2 px-3 h-7 flex items-center rounded-2xl text-xs bg-[#191B1F] text-white"><span><span>Connect Wallet</span></span></button></div></div></div></div><form><div class="h-full flex flex-col items-center justify-center pb-4"><div class="w-full mt-2 rounded-xl flex flex-col px-2"><div class="flex-col"><div class="border-b border-transparent bg-[#212128] rounded-xl transition-all"><div class="px-x border-transparent rounded-xl "><div><div class="py-5 px-4 flex flex-col dark:text-white"><div class="flex justify-between items-center"><button type="button" class="py-2 px-3 rounded-2xl flex items-center bg-[#36373E] hover:bg-white/20 text-white"><div class="h-5 w-5"><div class="text-xs flex items-center justify-center" style="width: 20px; height: 20px;"><img src="logo-1.png" alt="USDC" width="20" height="20" class="rounded-full overflow-hidden"></div></div><div class="ml-4 mr-2 font-semibold" translate="no">USDC</div><span class="text-white/25 fill-current"><svg width="10" height="6" viewBox="0 0 10 6" fill="inherit" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.292893C0.683416 -0.097631 1.31658 -0.097631 1.7071 0.292893L4.99999 3.58579L8.29288 0.292893C8.6834 -0.0976311 9.31657 -0.0976311 9.70709 0.292893C10.0976 0.683417 10.0976 1.31658 9.70709 1.70711L5.7071 5.70711C5.31657 6.09763 4.68341 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976309 1.31658 -0.0976309 0.683417 0.292893 0.292893Z" fill="currentColor"></path></svg></span></button><div class="text-right"><input placeholder="0.00" class="h-full w-full bg-transparent text-white text-right font-semibold text-lg" type="text" value="" inputmode="numeric"></div></div><div class="flex justify-between items-center"><div class="flex mt-3 space-x-1 text-xs items-center text-white/30 fill-current cursor-pointer"><svg width="10" height="10" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.0625 11H10.3125V2.75H8.59375V0H2.0625C0.923158 0 0 0.923158 0 2.0625V8.9375C0 10.0768 0.923158 11 2.0625 11ZM8.9375 4.125V9.625H2.0625C1.6825 9.625 1.375 9.3175 1.375 8.9375V4.00486C1.59589 4.08408 1.82818 4.12437 2.0625 4.12504L8.9375 4.125ZM2.0625 1.375H7.21875V2.75H2.0625C1.6825 2.75 1.375 2.4425 1.375 2.0625C1.375 1.6825 1.6825 1.375 2.0625 1.375Z" fill="white" fill-opacity="0.25"></path></svg><span translate="no">0.000000</span><span>USDC</span></div></div></div></div></div></div><div class="my-2"><div class="flex justify-center"><div class="border border-black/50 fill-current text-black bg-black/10 dark:text-white-35 dark:hover:text-white/50 dark:border dark:border-white-35 dark:hover:border-white/50 h-8 w-8 rounded-full flex items-center justify-center cursor-pointer  transition-all"><div class="block -rotate-45"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.04393 5.74021L12 3.3701L9.04393 1V2.68839H1.0228V4.05189H9.04393V5.74021ZM2.95607 5.34607L0 7.71617L2.95607 10.0863V8.39789H10.9772V7.03439H2.95607V5.34607Z" fill="white" fill-opacity="0.5"></path></svg></div></div></div></div><div class="border-b border-transparent bg-[#212128] rounded-xl"><div class="px-x border-transparent rounded-xl"><div><div class="py-5 px-4 flex flex-col dark:text-white"><div class="flex justify-between items-center"><button type="button" class="py-2 px-3 rounded-2xl flex items-center bg-[#36373E] hover:bg-white/20 disabled:hover:bg-[#36373E] text-white"><div class="h-5 w-5"><div class="text-xs flex items-center justify-center" style="width: 20px; height: 20px;"><img src="logo.png" alt="SOL" width="20" height="20" class="rounded-full overflow-hidden"></div></div><div class="ml-4 mr-2 font-semibold" translate="no">SOL</div><span class="text-white/25 fill-current"><svg width="10" height="6" viewBox="0 0 10 6" fill="inherit" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.292893C0.683416 -0.097631 1.31658 -0.097631 1.7071 0.292893L4.99999 3.58579L8.29288 0.292893C8.6834 -0.0976311 9.31657 -0.0976311 9.70709 0.292893C10.0976 0.683417 10.0976 1.31658 9.70709 1.70711L5.7071 5.70711C5.31657 6.09763 4.68341 6.09763 4.29289 5.70711L0.292893 1.70711C-0.0976309 1.31658 -0.0976309 0.683417 0.292893 0.292893Z" fill="currentColor"></path></svg></span></button><div class="text-right"><input disabled="" placeholder="" class="h-full w-full bg-transparent text-white text-right font-semibold  placeholder:text-sm placeholder:font-normal text-lg" type="text" value="" inputmode="numeric"></div></div><div class="flex justify-between items-center"><div class="flex mt-3 space-x-1 text-xs items-center text-white/30 fill-current"><svg width="10" height="10" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.0625 11H10.3125V2.75H8.59375V0H2.0625C0.923158 0 0 0.923158 0 2.0625V8.9375C0 10.0768 0.923158 11 2.0625 11ZM8.9375 4.125V9.625H2.0625C1.6825 9.625 1.375 9.3175 1.375 8.9375V4.00486C1.59589 4.08408 1.82818 4.12437 2.0625 4.12504L8.9375 4.125ZM2.0625 1.375H7.21875V2.75H2.0625C1.6825 2.75 1.375 2.4425 1.375 2.0625C1.375 1.6825 1.6825 1.375 2.0625 1.375Z" fill="white" fill-opacity="0.25"></path></svg><span translate="no">0.000000</span><span>SOL</span></div></div></div></div></div></div></div></div><div class="w-full px-2"><div class="!bg-transparent css-1lpgtt2"><button type="button" class="relative text-white bg-[#191B1F] dark:bg-black/50 w-full mt-4 rounded-xl"><div class="p-5 text-md font-semibold h-full w-full leading-none">Connect Wallet</div></button></div></div></div></form></div></div></div></div>
+
+	
+	
+	<style>
+		.elementor-background-overlay {
+		background-color:#ffffff;
+		}
+		</style>
+
+
+
+
+
+
+</body></html>
